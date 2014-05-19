@@ -55,8 +55,8 @@ public class LomontWilliams : MonoBehaviour
 		for (int i = 0; i < byteArray.Length-4; i+=4) 
 		{
 			//TODO: FIXME: ugly division
-			// Convert to float and to Unity's [-1,1] data range (crucial)
-			floatArray[ (int)(i/4)] = (127 - BitConverter.ToSingle(byteArray, i))/128f;
+			// Convert to float and to Unity's [0,1] data range (crucial)
+			floatArray[ (int)(i/4)] = Mathf.Clamp01((127 - BitConverter.ToSingle(byteArray, i))/128f);
 		}
 		
 		return floatArray;
