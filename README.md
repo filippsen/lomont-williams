@@ -4,7 +4,7 @@ lomont-williams
 Quick and dirty Unity3D implementation of the Williams soundsynth (by Lomont).
 
 Inspired by fellow C coder Madgarden, George Broussard and ofc C. Lomont.
-Big thanks to @TonyAlbrecht for adding the Editor + wav export + ideas.
+<br/>Big thanks to @TonyAlbrecht for adding the Editor + wav export + ideas.
 
 ---
 Known issues:
