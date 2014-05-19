@@ -12,12 +12,11 @@ Known issues:
 1 - Lomont's algorithm may lead to infinite loops/weird behaviour depending on the parameters.
 
 ---
-Ideas:
-
-[Editor]
-1 - Add waveform graph view
-2 - Add live editing (easy preview)
-3 - Add hex display for params
+Ideas:<br/>
+[Editor]<br/>
+1 - Add waveform graph view<br/>
+2 - Add live editing (easy preview)<br/>
+3 - Add hex display for params<br/>
 
 
 ---
